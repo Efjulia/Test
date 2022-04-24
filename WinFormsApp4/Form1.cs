@@ -17,5 +17,17 @@ namespace WinFormsApp4
             InitializeComponent();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            TrainingForm TrForm = new TrainingForm();
+            TrForm.Show();
+                }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            TestForm TsForm = new TestForm();
+            TsForm.Show();
+
+        }
     }
 }
